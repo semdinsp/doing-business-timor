@@ -56,7 +56,7 @@
     var lucky_dip, lucky_dip2;
 
     lucky_dip = new LuckyDip($('section.users li'));
-    lucky_dip2 = new LuckyDip($('section.intro p'));
+    lucky_dip2 = new LuckyDip($('section.lucky1 p'));
     return lucky_dip.multi_change(lucky_dip, lucky_dip2);
   });
 
